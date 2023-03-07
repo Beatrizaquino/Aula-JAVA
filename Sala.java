@@ -3,7 +3,7 @@ public class Sala {
     private String descricao;
     private String localizacao;
     private int qtdCadeiras;
-    private int tipoDeTela;
+    private String tipoDeTela;
 
     public String getDescricao() {
         return this.descricao;
@@ -28,11 +28,11 @@ public class Sala {
         this.qtdCadeiras = qtdCadeiras;
     }
 
-    public int getTipoDeTela(){
+    public String getTipoDeTela(){
         return this.tipoDeTela;
     }
 
-    public void setTipoDeTela( int tipoDeTela){
+    public void setTipoDeTela( String tipoDeTela){
         this.tipoDeTela = tipoDeTela;
     }
 }

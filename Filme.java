@@ -1,4 +1,4 @@
- class Filme {
+class Filme {
     private String titulo;
     private int duracao;
     private int ano;
@@ -8,7 +8,7 @@
         return this.titulo;
     }
 
-    public void setTitulacao( String titulo) {
+    public void setTitulacao(String titulo) {
         this.titulo = titulo;
     }
 
@@ -16,7 +16,7 @@
         return this.duracao;
     }
 
-    public void setDuracao( int duracao) {
+    public void setDuracao(int duracao) {
         this.duracao = duracao;
     }
 
@@ -24,15 +24,15 @@
         return this.ano;
     }
 
-    public void setAno( int ano){
+    public void setAno(int ano) {
         this.ano = ano;
     }
 
-    public String getSinopse(){
+    public String getSinopse() {
         return this.sinopse;
     }
 
-    public void setSinopse( String sinopse) {
+    public void setSinopse(String sinopse) {
         this.sinopse = sinopse;
     }
- }
+}

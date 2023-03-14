@@ -1,7 +1,7 @@
 public class Pessoa {
     
     public String nome;
-    public String cpf;
+    public CPF cpf;
     
     public String nome(){
         return this.nome;
@@ -12,6 +12,6 @@ public class Pessoa {
     }
 
     public void InsereCpf() {
-        
+
     }
 }

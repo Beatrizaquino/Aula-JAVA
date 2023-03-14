@@ -1,3 +1,4 @@
+package aula1;
 public class Genero {
     
     private String nome; 

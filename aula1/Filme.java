@@ -1,3 +1,4 @@
+package aula1;
 class Filme {
     private String titulo;
     private int duracao;

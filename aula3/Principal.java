@@ -1,6 +1,5 @@
-//objeto é uma - representação do mundo real, eu pessoa tenho atributos d eindentificação logo posso me transformar em objeto 
-//o que é classe - pode se dizer que é uma forma para construção de um objeto
-// variavel um espaço alocado na memoria
+package aula3;
+
 public class Principal {
     public static void main(String[] args) {
         PF pessoafisica = new PF();
@@ -15,6 +14,7 @@ public class Principal {
         endereco.estado = "Rondônia";
 
         conta.numero = 202210405;
+        conta.saldo = (float) 15.2;
         conta.status = true;
 
 

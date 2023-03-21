@@ -1,3 +1,4 @@
+package aula3;
 public class Endereco {
     public String rua;
     public int numero;
@@ -5,5 +6,5 @@ public class Endereco {
     public int cep;
     public String cidade;
     public String estado;
-    
+
 }

@@ -1,7 +1,8 @@
+package aula2;
 public class Pessoa {
     
     public String nome;
-    public CPF cpf;
+    public String cpf;
     
     public String nome(){
         return this.nome;

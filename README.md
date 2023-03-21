@@ -4,3 +4,7 @@
 -variavel um espaço alocado na memoria
 
 -- Objetos ocupam menos espaços na memoria??
+
+- O que acontece quando instaciamos um objeto
+
+-- dentro do objetos temos o endereço da memoria que pode ser entendido atraves do atributo "new"

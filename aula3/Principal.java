@@ -17,10 +17,9 @@ public class Principal {
         conta.saldo = (float) 15.2;
         conta.status = true;
 
-
         pessoafisica.nome = "Beatriz";
         pessoafisica.endereco = endereco;
-        pessoafisica.cpf = " 082.037.651-57" ;
+        pessoafisica.cpf = " 082.037.651-57";
         pessoafisica.conta = conta;
         System.out.println(pessoafisica.endereco);
     }
